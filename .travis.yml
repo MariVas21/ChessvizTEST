@@ -1,0 +1,3 @@
+Language: c
+compiler: gcc
+script: make && make test && bin/test
