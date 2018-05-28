@@ -62,7 +62,7 @@ CTEST(Sintax, InCorrect_Sintax){//a2 d4Pawn
 }
 
 
-CTEST(Sintax, InCorrect_Sintax){//a2b2Pawn
+CTEST(Sintax, InCorrect_SintaxPawn){//a2b2Pawn
   
   bool result = move(7, 1, 7, 2, A);
     ASSERT_FALSE(result);
