@@ -15,8 +15,5 @@
 *.log
 *.sql
 *.sqlite
-bin/program
-build/*.o
-bin/*.txt
 bin
 build
