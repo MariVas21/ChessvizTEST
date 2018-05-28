@@ -55,9 +55,9 @@ CTEST(insert_coordinates, KING_INCORRECT) // e1 e2
 
 
 
-CTEST(Sintax,INCorrect_Sintax){
-  bool result = main(u, 2, j, 1, A);
-    ASSERT_FALSE(result);
+CTEST(Sintax,Correct_Sintax){
+  bool result = main(a, 2,a , 4, A);
+    ASSERT_TRUE(result);
 }
 
 int main(int argc, const char** argv)
