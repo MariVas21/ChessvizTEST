@@ -55,11 +55,26 @@ CTEST(insert_coordinates, KING_INCORRECT) // e1 e2
 
 
 
-CTEST(Sintax, InCorrect_Sintax){//a2 a4
+CTEST(Sintax, InCorrect_Sintax){//a2 d4Pawn
   
   bool result = move(7, 1, 5, 4, A);
     ASSERT_FALSE(result);
 }
+
+
+CTEST(Sintax, InCorrect_Sintax){//a2b2Pawn
+  
+  bool result = move(7, 1, 7, 2, A);
+    ASSERT_FALSE(result);
+}
+
+
+CTEST(Sintax, Correct_Sintax){//b2 b4Pawn
+  
+  bool result = move(7, 2, 5, 2, A);
+    ASSERT_TRUE(result);
+}
+
 
 int main(int argc, const char** argv)
 {
