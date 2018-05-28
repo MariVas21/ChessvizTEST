@@ -56,7 +56,7 @@ CTEST(insert_coordinates, KING_INCORRECT) // e1 e2
 
 
 CTEST(Sintax, Correct_Sintax){
-  bool result = move(1, 2, 1, 4, A);//a2a4
+  bool result = move(7, 1, 5, 1, A);//a2a4
     ASSERT_TRUE(result);
 }
 
