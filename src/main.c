@@ -62,12 +62,6 @@ int main()
 		}
 		output(A);
 		printf("\n\n");
-		//		printf("\n\nExit? (print 'y')\n");
-		//	scanf(" %c", &con);
-		//	if (con == 'y')
-		//{
-		//	return 0;
-		//}
 	}
 	return 0;
 }

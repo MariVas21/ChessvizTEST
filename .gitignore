@@ -18,3 +18,5 @@
 bin/program
 build/*.o
 bin/*.txt
+bin
+build
