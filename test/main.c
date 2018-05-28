@@ -76,6 +76,14 @@ CTEST(Sintax, Correct_Sintax){//b2 b4Pawn
 }
 
 
+CTEST(Sintax, Correct_SintaxInput){
+  
+  bool result = main(7, A, 5, A, A);
+    ASSERT_TRUE(result);
+}
+
+
+
 int main(int argc, const char** argv)
 {
 	layout(A);
