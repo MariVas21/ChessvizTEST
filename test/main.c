@@ -53,6 +53,13 @@ CTEST(insert_coordinates, KING_INCORRECT) // e1 e2
 	ASSERT_FALSE(result);
 }
 
+
+
+CTEST(Sintax,Correct_Sintax){
+  bool result = move(A, "b22-b4");
+    ASSERT_FALSE(result);
+}
+
 int main(int argc, const char** argv)
 {
 	layout(A);
