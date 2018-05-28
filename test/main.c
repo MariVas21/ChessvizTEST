@@ -78,7 +78,7 @@ CTEST(Sintax, Correct_Sintax){//b2 b4Pawn
 
 CTEST(Sintax, Correct_SintaxInput){
   
-  bool result = main("a2a4" A);
+  bool result = main("a2a4");
     ASSERT_TRUE(result);
 }
 
